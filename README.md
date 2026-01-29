@@ -26,8 +26,8 @@ The **trunk** branch contains the following structure:
 
 ```
 musical-engine/               # Repository root (on trunk branch)
-├── src/                      # Source files
-│   ├── index.jsx             # Main React application (compiled from TypeScript)
+├── src/                      # Compiled output and assets
+│   ├── index.jsx             # Compiled JavaScript from index.tsx
 │   ├── index.css             # Main styles
 │   ├── DrinkTransitions.css  # Drink showcase animations
 │   ├── hoverButton.css       # Button hover effects
@@ -46,11 +46,13 @@ musical-engine/               # Repository root (on trunk branch)
 ├── public/                   # Public assets
 │   └── index.html            # HTML template
 ├── build/                    # Production build output
-├── index.tsx                 # Root TypeScript component source
+├── index.tsx                 # Root TypeScript source file
 ├── package.json              # Project dependencies
 ├── tsconfig.json             # TypeScript configuration
 └── .gitignore                # Git ignore rules
 ```
+
+**Note**: The `index.tsx` at the root is the TypeScript source file that gets compiled to `src/index.jsx`.
 
 ## 📦 Contents
 
@@ -60,7 +62,7 @@ The trunk branch features two main drink collections:
 
 #### Classic Collection (Ukrainian-Inspired)
 1. **Kyiv Cooler** - Garden Classic with cucumber, lemon, elderflower, and mint
-2. **Sunflower Fizz** - Solar-powered summer edition with chamomile, citrus, and raw honey
+2. **Sunflower Fizz** - Sunshine-infused summer edition with chamomile, citrus, and raw honey
 3. **Black Sea Breeze** - Bold coastal refresher with blackcurrant, wild mint, lemon, and fizz
 4. **Kyiv Kvass Lite** - Modern tradition with toasted bread, honey, lemon, and mint
 
