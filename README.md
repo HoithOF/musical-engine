@@ -22,34 +22,34 @@ The brand employs a distinctive visual identity with:
 
 ## 📁 Project Layout
 
+The **trunk** branch contains the following structure:
+
 ```
-musical-engine/
-├── trunk/                      # Main production branch
-│   ├── src/                    # Source files
-│   │   ├── index.jsx           # Main React application (compiled from TypeScript)
-│   │   ├── index.css           # Main styles
-│   │   ├── DrinkTransitions.css  # Drink showcase animations
-│   │   ├── hoverButton.css     # Button hover effects
-│   │   ├── hoverCircle.css     # Circular hover animations
-│   │   ├── logo.png            # SADOK brand logo
-│   │   ├── classic/            # Classic drink collection images
-│   │   │   ├── 0.jpg
-│   │   │   ├── 1.png
-│   │   │   ├── 2.jpg
-│   │   │   └── 3.jpg
-│   │   └── staple/             # Reference drinks collection images
-│   │       ├── 0.png
-│   │       ├── 1.png
-│   │       ├── 2.png
-│   │       └── 3.png
-│   ├── public/                 # Public assets
-│   │   └── index.html          # HTML template
-│   ├── build/                  # Production build output
-│   ├── index.tsx               # Root TypeScript component source
-│   ├── package.json            # Project dependencies
-│   ├── tsconfig.json           # TypeScript configuration
-│   └── .gitignore              # Git ignore rules
-└── README.md                   # This file
+musical-engine/               # Repository root (on trunk branch)
+├── src/                      # Source files
+│   ├── index.jsx             # Main React application (compiled from TypeScript)
+│   ├── index.css             # Main styles
+│   ├── DrinkTransitions.css  # Drink showcase animations
+│   ├── hoverButton.css       # Button hover effects
+│   ├── hoverCircle.css       # Circular hover animations
+│   ├── logo.png              # SADOK brand logo
+│   ├── classic/              # Classic drink collection images
+│   │   ├── 0.jpg
+│   │   ├── 1.png
+│   │   ├── 2.jpg
+│   │   └── 3.jpg
+│   └── staple/               # Reference drinks collection images
+│       ├── 0.png
+│       ├── 1.png
+│       ├── 2.png
+│       └── 3.png
+├── public/                   # Public assets
+│   └── index.html            # HTML template
+├── build/                    # Production build output
+├── index.tsx                 # Root TypeScript component source
+├── package.json              # Project dependencies
+├── tsconfig.json             # TypeScript configuration
+└── .gitignore                # Git ignore rules
 ```
 
 ## 📦 Contents
@@ -60,7 +60,7 @@ The trunk branch features two main drink collections:
 
 #### Classic Collection (Ukrainian-Inspired)
 1. **Kyiv Cooler** - Garden Classic with cucumber, lemon, elderflower, and mint
-2. **Sunflower Fizz** - Solar-powered summer edit with chamomile, citrus, and raw honey
+2. **Sunflower Fizz** - Solar-powered summer edition with chamomile, citrus, and raw honey
 3. **Black Sea Breeze** - Bold coastal refresher with blackcurrant, wild mint, lemon, and fizz
 4. **Kyiv Kvass Lite** - Modern tradition with toasted bread, honey, lemon, and mint
 
@@ -79,7 +79,7 @@ The project also includes a reference collection of well-known beverages for com
 ### Prerequisites
 
 Before you begin, ensure you have the following installed:
-- **Node.js** (v14 or higher)
+- **Node.js** (v18 or higher)
 - **npm** (comes with Node.js)
 
 ### Installation
