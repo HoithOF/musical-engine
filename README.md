@@ -26,7 +26,7 @@ The brand employs a distinctive visual identity with:
 musical-engine/
 ├── trunk/                      # Main production branch
 │   ├── src/                    # Source files
-│   │   ├── index.jsx           # Compiled React application
+│   │   ├── index.jsx           # Main React application (compiled from TypeScript)
 │   │   ├── index.css           # Main styles
 │   │   ├── DrinkTransitions.css  # Drink showcase animations
 │   │   ├── hoverButton.css     # Button hover effects
@@ -37,7 +37,7 @@ musical-engine/
 │   │   │   ├── 1.png
 │   │   │   ├── 2.jpg
 │   │   │   └── 3.jpg
-│   │   └── staple/             # Staple drinks collection images
+│   │   └── staple/             # Reference drinks collection images
 │   │       ├── 0.png
 │   │       ├── 1.png
 │   │       ├── 2.png
@@ -45,7 +45,7 @@ musical-engine/
 │   ├── public/                 # Public assets
 │   │   └── index.html          # HTML template
 │   ├── build/                  # Production build output
-│   ├── index.tsx               # Root TypeScript component
+│   ├── index.tsx               # Root TypeScript component source
 │   ├── package.json            # Project dependencies
 │   ├── tsconfig.json           # TypeScript configuration
 │   └── .gitignore              # Git ignore rules
@@ -64,11 +64,8 @@ The trunk branch features two main drink collections:
 3. **Black Sea Breeze** - Bold coastal refresher with blackcurrant, wild mint, lemon, and fizz
 4. **Kyiv Kvass Lite** - Modern tradition with toasted bread, honey, lemon, and mint
 
-#### Staple Collection
-1. **Coca-Cola** - The timeless original
-2. **Sprite** - Crisp lemon-lime refreshment
-3. **Dr. Pepper** - Bold 23-flavor spiced blend
-4. **Fanta** - Bright and fruity orange fizz
+#### Reference Staples Collection
+The project also includes a reference collection of well-known beverages for comparison and visual demonstration purposes. These are not SADOK products but serve as familiar reference points in the user interface.
 
 ### Key Features
 - Interactive drink showcase with smooth transitions
